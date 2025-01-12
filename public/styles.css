@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .controls {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .controls label, .controls input, .controls button {
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  button.active {
+    background-color: #d9534f;
+    color: white;
+  }
+  
+  canvas {
+    display: block;
+    background-color: white;
+    cursor: crosshair;
+  }
+  
